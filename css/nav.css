@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'clan';
+  src: url("../fonts/clanpro-narrultra-webfont.eot");
+  src: url("../fonts/clanpro-narrultra-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/clanpro-narrultra-webfont.woff2") format("woff2"), url("../fonts/clanpro-narrultra-webfont.woff") format("woff"), url("../fonts/clanpro-narrultra-webfont.ttf") format("truetype"), url("../fonts/clanpro-narrultra-webfont.svg#clan_pronarrow_ultra") format("svg");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: 'clan';
+  src: url("../fonts/clanpro-bold-webfont.eot");
+  src: url("../fonts/clanpro-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/clanpro-bold-webfont.woff2") format("woff2"), url("../fonts/clanpro-bold-webfont.woff") format("woff"), url("../fonts/clanpro-bold-webfont.ttf") format("truetype"), url("../fonts/clanpro-bold-webfont.svg#clan_probold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'clan';
+  src: url("../fonts/clanpro-news-webfont.eot");
+  src: url("../fonts/clanpro-news-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/clanpro-news-webfont.woff2") format("woff2"), url("../fonts/clanpro-news-webfont.woff") format("woff"), url("../fonts/clanpro-news-webfont.ttf") format("truetype"), url("../fonts/clanpro-news-webfont.svg#clan_pronews") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+html {
+  width: 100%;
+  height: 58px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  height: 58px;
+  width: 100%;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Georgia, "Times New Roman", Times, serif; }
+
+ul {
+  display: block;
+  list-style-type: none;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px; }
+
+header {
+  display: block;
+  background: black;
+  color: white;
+  height: 58px;
+  line-height: 56px;
+  padding: 0 13px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0; }
+  header a {
+    color: white;
+    text-decoration: none; }
+  header nav {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    font-family: clan, Helvetica, Tahoma, sans-serif; }
+    header nav ul {
+      margin: 0 0 0 18.667px;
+      padding: 0; }
+    header nav li {
+      text-align: -webkit-match-parent;
+      list-style-type: none;
+      list-style-image: none;
+      margin-left: 0;
+      font-size: 1em;
+      white-space: nowrap;
+      display: inline;
+      float: left;
+      padding-left: 4px;
+      padding-right: 4px; }
+      header nav li:first-child {
+        padding-left: 0; }
+      header nav li:last-child {
+        padding-right: 0; }
+      header nav li.sub {
+        line-height: 55px;
+        z-index: 11;
+        margin-right: 7px; }
+      header nav li.radio span {
+        padding-left: 28px !important;
+        background: transparent url("http://www.redbullmusicacademy.com/rbma/images/icons-se3ff754b8e.png") 0 -1916px no-repeat; }
+      header nav li span {
+        font-weight: normal;
+        font-style: normal;
+        font-family: clan, Helvetica, Tahoma, sans-serif;
+        font-size: 12px;
+        text-transform: uppercase;
+        padding: 0 9.333px 0 9.333px;
+        -webkit-font-smoothing: antialiased; }
+        header nav li span a {
+          border-bottom: 2px solid transparent;
+          padding-bottom: 5px;
+          -webkit-transition: border 0.3s ease-in-out;
+          transition: border 0.3s ease-in-out; }
+        header nav li span:hover a, header nav li span:active a {
+          border-bottom: 2px solid #00acff;
+          padding-bottom: 5px; }
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+  height: 58px; }
+  .logo a img {
+    border: 0;
+    vertical-align: top;
+    width: 61px;
+    height: 28px;
+    margin-top: 13px; }
+  .logo a span {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    font-family: clan, Helvetica, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    margin-left: 12.333px; }
+    .logo a span.mobilesitename {
+      display: none; }

@@ -1,0 +1,119 @@
+@import "_fonts.scss";
+@import "_globals.scss";
+@import "_search.scss";
+
+
+header{
+	display: block;
+	background: black;
+	color: white;
+	height: 58px;
+	line-height: 56px;
+	padding: 0 13px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	a{
+		color: white;
+		text-decoration: none;
+	}
+	nav{
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0;
+		padding: 0;
+		border: 0;
+		overflow: hidden;
+		font-family: clan, Helvetica, Tahoma, sans-serif;
+		ul{
+			margin: 0 0 0 18.667px;
+			padding: 0;
+		}
+		li{
+			text-align: -webkit-match-parent;
+			list-style-type: none;
+			list-style-image: none;
+			margin-left: 0;
+			font-size: 1em;
+			white-space: nowrap;
+			display: inline;
+			float: left;
+			padding-left: 4px;
+			padding-right: 4px;
+			&:first-child{
+				padding-left: 0;
+			}
+
+			&:last-child{
+				padding-right: 0;
+			}
+			&.sub{
+				line-height: 55px;
+				z-index: 11;
+				margin-right: 7px;
+			}
+			&.radio{
+				span{
+					padding-left: 28px !important;
+					background: transparent url('http://www.redbullmusicacademy.com/rbma/images/icons-se3ff754b8e.png') 0 -1916px no-repeat;
+				}
+			}
+			span{
+				font-weight: normal;
+				font-style: normal;
+				font-family: clan, Helvetica, Tahoma, sans-serif;
+				font-size: 12px;
+				text-transform: uppercase;
+				padding: 0 9.333px 0 9.333px;
+				-webkit-font-smoothing: antialiased;
+				a{
+					border-bottom: 2px solid transparent;
+					padding-bottom: 5px;
+					-webkit-transition: border 0.3s ease-in-out;
+					-ms-transition: border 0.3s ease-in-out;
+					-moz-transition: border 0.3s ease-in-out;
+					-o-transition: border 0.3s ease-in-out;
+					transition: border 0.3s ease-in-out;
+				}
+				&:hover, &:active{
+					a{
+						border-bottom: 2px solid #00acff;
+						padding-bottom: 5px;
+					}
+					
+				}
+			}
+		}
+	}
+}
+
+.logo{
+	display: -moz-inline-box;
+	display: inline-block;
+	vertical-align: middle;
+	height: 58px;
+	a{
+		img{
+			border: 0;
+			vertical-align: top;
+			width: 61px;
+			height: 28px;
+			margin-top: 13px;
+		}
+		span{
+			display: inline-block;
+			vertical-align: middle;
+			font-weight: bold;
+			-webkit-font-smoothing: antialiased;
+			font-family: clan, Helvetica, Tahoma, sans-serif;
+			font-style: normal;
+			font-size: 14px;
+			margin-left: 12.333px;
+			&.mobilesitename{
+				display: none;
+			}
+		}
+	}
+}
+
